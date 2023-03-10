@@ -1,2 +1,3 @@
 #!/bin/bash
-ls --almost-all, --classify
+ls --almost-all --classify
+
