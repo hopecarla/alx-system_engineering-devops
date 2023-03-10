@@ -1,2 +1,2 @@
 #!/bin/bash
-ls --almost-all --classify
+ls --almost-all[:alpha:] --classify
