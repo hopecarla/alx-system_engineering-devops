@@ -1,2 +1,2 @@
 #!bin/bash
-drwxr
+chmod r+w+x hello
