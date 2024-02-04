@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Script that displays all active IPv4 IPS on the machine it's executed on
+
+ip -4 address show | grep inet | awk '{print $2}' | cut -d'/' -f1
