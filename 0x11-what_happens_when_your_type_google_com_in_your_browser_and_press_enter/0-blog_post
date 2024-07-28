@@ -1,0 +1,27 @@
+When you type "https://www.google.com" and press Enter, here's a quick rundown of what happens:
+
+DNS Request: Your browser looks up the IP address for "www.google.com" through caches (browser, OS, router) and eventually the ISP's DNS server if needed.
+
+TCP/IP Connection: A TCP handshake (SYN, SYN-ACK, ACK) establishes a connection, and data packets are routed to Google’s server using IP addresses.
+
+Firewalls: Data passes through multiple firewalls (device, network, ISP, Google) to filter out malicious traffic.
+
+HTTPS/SSL: An SSL handshake encrypts the communication, ensuring secure data transfer between your browser and Google’s server.
+
+Load-Balancer: Google’s load balancer distributes the request to one of its many servers to manage traffic efficiently.
+
+Web Server: The web server processes the request and serves static content (HTML, CSS, JavaScript) if needed.
+
+Application Server: For dynamic content, the request goes to an application server which runs scripts to generate the content.
+
+Database: If necessary, the application server queries a database to fetch or update data.
+
+Finally:
+The web server sends the response back to your browser, which processes the HTML, CSS, and JavaScript to render the page:
+
+DOM Construction: HTML is parsed to build the DOM.
+CSS Styling: CSS is applied to style the elements.
+JavaScript Execution: JavaScript adds interactivity.
+Rendering: The page is displayed on your screen.
+
+This entire process happens in milliseconds, ensuring you see the Google homepage almost instantly.
